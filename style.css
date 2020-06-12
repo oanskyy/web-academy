@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body { 
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar { 
+  border-top: 7px solid #399eef;
+  padding: 29px 0;
+}
+
+.navbar-light { 
+  background-color: #fff;
+}
+
+.navbar-light .navbar-brand {
+  color: #399eef;
+  font-size: 30px; 
+  font-weight: 300; 
+  letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0, .7);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #399eef;
+}
+
+/*
+#text-content { 
+  text-align: center;
+  padding-top: 20%;
+}
+*/
+
+#header { 
+  color: #fff;
+  background: url("../img/hero.jpg") center center / cover no-repeat;
+}
+
+.card, .card-img, .card-img-top {
+  border-radius: 0;
+}
