@@ -1,17 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* 
+colors
+-web-academy-faces-bg: #ededf0; 
+-contact-area: color: #399eef;
+-subtitle: color: #4595cc;
+-faces: color: #ededf0;
+-footer: #444444; 
+-footer size: 60px;
+*/
 
 body { 
   font-family: 'Roboto', sans-serif;
 }
 
 .navbar { 
-  border-top: 7px solid #399eef;
+  border-top: 8px solid #399eef;
   padding: 29px 0;
-}
-
-.navbar-light { 
-  background-color: #fff;
 }
 
 .navbar-light .navbar-brand {
@@ -22,28 +27,62 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0, .7);
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 14px;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link:hover{
   color: #399eef;
 }
 
-/*
+.navbar-light { 
+  background-color: #fff;
+}
+
+/* 
 #text-content { 
   text-align: center;
   padding-top: 20%;
 }
 */
 
-#header { 
-  color: #fff;
+#title { 
   background: url("../img/hero.jpg") center center / cover no-repeat;
+}
+
+h2 { 
+  color: #399eef;
+}
+
+h5, h6 { 
+  color: #4595cc;
+}
+
+h5 + p, h6 + p { 
+  font-size: 12.6px;
+  line-height: 20px;
 }
 
 .card, .card-img, .card-img-top {
   border-radius: 0;
+  border: none;
+}
+
+#contact-details { 
+  background-color: #399eef;;
+}
+
+a, a:hover { 
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary, .btn-primary:hover { 
+  background-color: #fff;
+  color: #399eef;
+  border: none;
+}
+
+#footer { 
+  background-color: #444444;
+  font-size: 14px;
 }
